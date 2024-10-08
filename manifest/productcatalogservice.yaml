@@ -15,7 +15,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: 
+  name: productcatalogservice
   labels:
     tags.datadoghq.com/env: "dev-auto-inject"
     tags.datadoghq.com/service: "productcatalogservice"
